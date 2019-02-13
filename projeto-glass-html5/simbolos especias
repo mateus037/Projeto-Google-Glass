@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+      <head>
+        <title> Simoblos especias</title>
+
+      </head> 
+        <body>
+
+        <h1>Símbolos especiais</h1>
+        <p> &lt;
+            &gt;
+            &ge; <br/>
+
+            &pound;
+            &yen;
+            &euro; <br/>
+
+            &copy;
+            &reg;
+            &tm; <br>
+
+            &permil;
+            &sum;
+            &infin;
+            &times;
+            &plusmn; 
+            &plus;
+            &radic;
+            &ne; <br>
+
+            &Delta;
+            &Lamba;
+            &omega;
+            &phi;
+            <br>
+
+            &larr;
+            &rarr;
+            &uarr;
+            &darr;
+            &harr; <br/>
+
+            &spades;
+            &clubs;
+            &hearts;
+            &diams;
+
+
+        </p>
+
+      </body>
+
+</html>
