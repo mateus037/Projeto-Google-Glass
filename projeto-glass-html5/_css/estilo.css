@@ -1,4 +1,9 @@
 @charset "UFT-8";
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@font-face{
+  font-family: 'FontLogo';
+  src: url("../_fonts/bubblegum-sans-regular.otf");
+}
 
 body {
   background-color:white;
@@ -17,12 +22,30 @@ p {
   }
  /* Formatação do Cabeçalho*/
   header#cabecalho {
-    
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+
+  }
+  header#cabecalho h1{
+    padding: 0px;
+    margin-bottom: 0px;
+    font-family: FontLogo, sans-serif;
+    font-size: 30px;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6)    
+  }
+  header#cabecalho h2{
+    margin-top: -15px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #888888;
+    font-size: 15px;
+    padding: 0px;
   }
   header#cabecalho img#icone{
    position: absolute;
    left: 960px;
-   top:40px;
+   top:70px;
   }
   
 /* Formatação de imagens com legendas */
