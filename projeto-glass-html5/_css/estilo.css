@@ -53,8 +53,7 @@ figure.foto-legenda {
     position: relative;
     border:  8px solid white;
     box-shadow:  1px 1px 4px black;
-    width: 700px;
-    height: 400px;
+    
 }
  figure.foto-legenda img {
    width: 100%;
@@ -107,4 +106,23 @@ display: block;
  nav#menu a:hover {
    color: white;
    text-decoration: underline;
+  }
+  section#corpo {
+    display: block;
+    width:  500px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 20px; 
+  }
+  aside#lateral {
+    display: block;
+    width: 350px;
+    float: right;
+  }
+  footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+  }
+  footer#rodape p {
+    text-align: center;
   }
