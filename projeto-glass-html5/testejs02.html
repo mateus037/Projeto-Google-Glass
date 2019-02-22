@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Teste02</title>
+    <script>
+    function acendeLampada() {
+    
+     //alert("Lampada Acendeu");
+     document.getElementById("luz").src = "_imagens/lampada-acesa.jpg";
+     document.getElementById("lampada").textContent = "Lampada Acesa!";
+    }
+    function apagaLampada() {
+        document.getElementById("luz").src = "_imagens/lampada-apagada.jpg";
+        document.getElementById("lampada").textContent = "Lampada apagada";
+    }
+    function quebraLampada() {
+        document.getElementById("luz").src = "_imagens/lampada-quebrada.jpg";
+    }
+    </script>
+</head>
+<body>
+    <h1 id="lampada">Acenda a lampada!</h1>
+    <img src="_imagens/lampada-apagada.jpg" id="luz" onmousemove="acendeLampada()"
+     onmouseout="apagaLampada()" onclick="quebraLampada()"/>
+    
+</body>
+</html>
