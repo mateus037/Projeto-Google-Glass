@@ -136,7 +136,7 @@ display: block;
      margin-bottom: 0px;
      margin-top: 0px;
   }
-  .direita {
+   .direita {
     text-align: right;
   }
  header#cabecalho-artigo h2{
@@ -192,16 +192,19 @@ table#tabelaspec td.cd {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
   }
   aside#lateral h1{
-font-family: 'FontLogo', sans-serif;
-font-size: 20pt;
-color: #606060;
-margin-top: 0px;
+   font-family: 'FontLogo', sans-serif;
+   font-size: 20pt;
+   color: #606060;
+   margin-top: 0px;
   }
   aside#lateral h2{
     background-color: #606060;
     font-size: 13px;
     color: #ffffff;
     padding: 5px;
+  }
+  aside#lateral video#video {
+    width:  366px;
   }
   footer#rodape {
     clear: both;
